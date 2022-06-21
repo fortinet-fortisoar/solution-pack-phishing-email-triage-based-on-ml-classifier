@@ -1,0 +1,70 @@
+{
+    "name": "phishingEmailTriageBasedOnMLClassifier",
+    "version": "1.0.0",
+    "type": "solutionpack",
+    "local": true,
+    "label": "Phishing Email Triage Based On ML Classifier",
+    "dependencies": [
+        {
+            "name": "sOARFramework",
+            "type": "solutionpack",
+            "label": "SOAR Framework",
+            "version": "1.0.0",
+            "minVersion": null
+        },
+        {
+            "name": "socSimulator",
+            "type": "solutionpack",
+            "label": "SOC Simulator",
+            "version": "1.1.0",
+            "minVersion": null
+        }
+    ],
+    "prerequisite": null,
+    "publisher": "Fortinet",
+    "description": "FortiSOAR Phishing ML Classifier available as part of Recommendation Engine helps to predict phishing emails with a confidence score (0-100%). The classifier is trained on a healthy volume of, publicly available phishing email samples, to be able to predict new phishing emails with confidence. This solution pack provides a add-on playbook, that takes in a confidence threshold from the user, and based on the threshold allows to tune further to triage the alert better. For example, the example provided here to increase the severity of the alert, if the prediction confidence for the email to be phishing is above 90%, can be used as a template/hook and extended to do more actions like assignments, status changes, queue movements, trigger added investigation playbooks etc.",
+    "help": "https://github.com/fortinet-fortisoar/solution-pack-phishing-email-triage-based-on-ml-classifier/blob/release/1.0.0/README.md",
+    "category": [],
+    "supportInfo": null,
+    "iconLarge": null,
+    "fsrMinCompatibility": "7.2.0",
+    "date": "2022-06-20T12:49:46+00:00",
+    "contents": {
+        "modules": {
+            "scenario": {
+                "name": "Scenario",
+                "apiName": "scenario"
+            }
+        },
+        "viewTemplates": {
+            "scenario": {
+                "name": "Scenario",
+                "apiName": "scenario",
+                "views": [
+                    "list",
+                    "detail",
+                    "form"
+                ]
+            }
+        },
+        "playbooks": [
+            {
+                "name": "02 - Use Case - Phishing Email Triage Based On ML Classifier"
+            }
+        ],
+        "globalVariables": [],
+        "connectors": [
+            {
+                "name": "Phishing Classifier",
+                "apiName": "phishing-classifier"
+            }
+        ],
+        "recordSets": [
+            {
+                "name": "Scenario",
+                "apiName": "scenario",
+                "count": 1
+            }
+        ]
+    }
+}
