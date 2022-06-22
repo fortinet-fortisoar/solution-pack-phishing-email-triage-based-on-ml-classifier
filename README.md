@@ -9,7 +9,7 @@
 
 The **Phishing Email Triage Based on ML Classifier Solution Pack** demonstrates the scenarios and triage playbooks around phishing emails, using the information provided through the email server.
 
-The triage playbooks help perform triage on phishing emails, and the included scenario demonstrates and generates a demo alert of the type Phishing.
+The triage playbooks help perform triage on phishing emails, and the included scenario demonstrates and generates a demo alert of the type **Phishing**.
 
 * Classify the phishing email using the FortiSOAR Phishing Classifier connector.
 
