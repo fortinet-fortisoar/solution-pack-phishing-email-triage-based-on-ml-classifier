@@ -7,13 +7,13 @@ The **Phishing Email Triage Based On ML Classifier** solution pack contains the 
 
 ## Record Set
 
-|**Name**|**Description**|
+|Name|Descriptio|
 | :- | :- |
 |**Scenario - Phishing Email**| A simulation that helps you understand the *Phishing Email Triage Based On ML Classifier* solution pack.|
 
 ## Playbook Collection
 
-|02 - 02 - Use Case - Phishing Email Triage Based On ML Classifier |
+| 02 - Use Case - Phishing Email Triage Based On ML Classifier |
 | :- |
 
 |Playbook Name|Description|
