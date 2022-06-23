@@ -1,0 +1,19 @@
+[
+    {
+        "name": "phishing-classifier",
+        "label": "Phishing Classifier",
+        "category": "Machine Learning",
+        "description": "Classify emails into phishing and non-phishing using machine learning",
+        "publisher": null,
+        "operation_roles": {
+            "predict": [],
+            "train": [],
+            "get_training_results": [],
+            "get_verdict_set": [],
+            "get_modules": []
+        },
+        "configurations": [],
+        "dataImports": [],
+        "install_mode": "rpm"
+    }
+]

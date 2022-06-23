@@ -1,0 +1,30 @@
+[
+    {
+        "@type": "Scenario",
+        "steps": {
+            "Steps": [
+                {
+                    "name": "User Reported Phishing Email Alert",
+                    "type": "executePlaybook",
+                    "playbookIRI": "\/api\/3\/workflows\/a568cdc7-8ef2-4c52-b8f3-8c098000c71b",
+                    "preCreateMessage": "Creating demo record for Phishing Email alert",
+                    "postCreateMessage": "",
+                    "waitTimeforNextStep": "0"
+                }
+            ]
+        },
+        "configuration": "Phishing",
+        "title": "Phishing Email",
+        "description": "An employee reports a suspicious email to InfoSec@Example.com.\n\nObserve the following\n\n* Reported Email contained original email as MSG attachment\n* Reported Information (sender, email message) is presented as a handy reference\n* Suspicious email information (sender, receiver, subject, body, header, sender domain, etc) is presented for analyzing the case\n\n  ",
+        "createdAlertsID": null,
+        "uuid": "ade532cb-9659-403c-ba4c-812cb460716c",
+        "createUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
+        "createDate": 1643727650,
+        "modifyUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
+        "modifyDate": 1655726868.047117,
+        "id": 1,
+        "recordTags": [
+            "Phishing"
+        ]
+    }
+]

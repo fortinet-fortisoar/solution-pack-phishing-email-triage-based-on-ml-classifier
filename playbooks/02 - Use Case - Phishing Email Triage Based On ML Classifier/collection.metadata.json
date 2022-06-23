@@ -1,0 +1,11 @@
+{
+    "@context": "\/api\/3\/contexts\/WorkflowCollection",
+    "@type": "WorkflowCollection",
+    "name": "02 - Use Case - Phishing Email Triage Based On ML Classifier",
+    "description": null,
+    "visible": true,
+    "image": null,
+    "uuid": "de82601b-bba4-46a1-98e9-c936a288397e",
+    "deletedAt": null,
+    "recordTags": []
+}
