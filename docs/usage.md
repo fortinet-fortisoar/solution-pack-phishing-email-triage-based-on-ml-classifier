@@ -1,5 +1,5 @@
-| [Home](https://github.com/fortinet-fortisoar/solution-pack-phishing-email-triage-based-on-ml-classifier/blob/release/1.0.0/README.md) |
-|--------------------------------------------|
+| [Home](../README.md) | 
+|----------------------| 
 
 # Usage
 

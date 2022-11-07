@@ -1,5 +1,5 @@
-| [Home](https://github.com/fortinet-fortisoar/solution-pack-phishing-email-triage-based-on-ml-classifier/blob/release/1.0.0/README.md) |
-|--------------------------------------------|
+| [Home](../README.md) | 
+|----------------------| 
 
 # Contents
 
@@ -7,16 +7,16 @@ The **Phishing Email Triage Based On ML Classifier** solution pack contains the 
 
 ## Record Set
 
-|Name|Description|
-| :- | :- |
-|**Scenario - Phishing Email**| A simulation that helps you understand the *Phishing Email Triage Based On ML Classifier* solution pack.|
+| Scenario          | Description |
+| :-                | :-          |
+|Phishing Email Triage Based On ML Classifier| A simulation that helps you understand the *Phishing Email Triage Based On ML Classifier* solution pack.|
 
 ## Playbook Collection
 
 | 02 - Use Case - Phishing Email Triage Based On ML Classifier |
 | :- |
 
-|Playbook Name|Description|
+|**Playbook Name**|**Description**|
 | :- | :- |
 |Phishing Email Triage Based On ML Classifier|Identify Phishing Emails using FortiSOAR Phishing ML Classifier and take further triage actions based on confidence.|
 |Generate Phishing Email Alert|Generate a Phishing Email alert|
