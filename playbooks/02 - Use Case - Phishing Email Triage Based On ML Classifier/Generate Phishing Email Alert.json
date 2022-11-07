@@ -26,6 +26,7 @@
             "top": "165",
             "left": "126",
             "stepType": "\/api\/3\/workflow_step_types\/04d0cf46-b6a8-42c4-8683-60a7eaa69e8f",
+            "group": null,
             "uuid": "1d395dab-25e5-4837-9be1-b4315e2548a9"
         },
         {
@@ -63,6 +64,7 @@
             "top": "300",
             "left": "126",
             "stepType": "\/api\/3\/workflow_step_types\/2597053c-e718-44b4-8394-4d40fe26d357",
+            "group": null,
             "uuid": "5c33cabc-2e1e-47b0-8821-1f8829e18fad"
         },
         {
@@ -76,6 +78,7 @@
             "top": "570",
             "left": "126",
             "stepType": "\/api\/3\/workflow_step_types\/04d0cf46-b6a8-42c4-8683-60a7eaa69e8f",
+            "group": null,
             "uuid": "9696146e-45d8-4ce0-93bb-7147fd3f6559"
         },
         {
@@ -92,7 +95,7 @@
                 },
                 "resource": {
                     "name": "{% if vars.item.headers.subject %}Phishing Email: {{vars.item.headers.subject}} {% else %} None {% endif %}",
-                    "type": "\/api\/3\/picklists\/0b3ef6f9-eb29-4ab9-ac98-98364bd1a3aa",
+                    "type": "\/api\/3\/picklists\/c145394b-069a-449b-a05e-67980d0f4b82",
                     "state": "\/api\/3\/picklists\/a1bac09b-1441-45aa-ad1b-c88744e48e72",
                     "source": "{% if  'reporterEmailAddress' in vars.item %}User Reported{% else %}Email Server{% endif %}",
                     "status": "\/api\/3\/picklists\/7de816ff-7140-4ee5-bd05-93ce22002146",
@@ -133,6 +136,7 @@
             "top": "435",
             "left": "126",
             "stepType": "\/api\/3\/workflow_step_types\/2597053c-e718-44b4-8394-4d40fe26d357",
+            "group": null,
             "uuid": "c0499e78-32b4-48c8-8da2-ce9797764914"
         },
         {
@@ -150,6 +154,7 @@
             "top": "30",
             "left": "126",
             "stepType": "\/api\/3\/workflow_step_types\/b348f017-9a94-471f-87f8-ce88b6a7ad62",
+            "group": null,
             "uuid": "c24db4ff-e4fb-4e54-8345-882ae1c0c10e"
         }
     ],
@@ -191,13 +196,14 @@
             "uuid": "f774a7ff-0f1e-43e3-83f3-78fe5c8aff33"
         }
     ],
+    "groups": [],
     "priority": "\/api\/3\/picklists\/2b563c61-ae2c-41c0-a85a-c9709585e3f2",
     "uuid": "a568cdc7-8ef2-4c52-b8f3-8c098000c71b",
     "owners": [],
     "isPrivate": false,
     "deletedAt": null,
     "recordTags": [
-        "Demo",
-        "Alert"
+        "Alert",
+        "Demo"
     ]
 }

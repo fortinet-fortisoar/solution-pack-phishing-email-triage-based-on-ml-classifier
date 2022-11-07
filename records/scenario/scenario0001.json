@@ -13,16 +13,16 @@
                 }
             ]
         },
-        "configuration": "Phishing",
-        "title": "Phishing Email",
+        "configuration": "Phishing Email",
+        "title": "Phishing Email Triage Based On ML Classifier",
         "description": "An employee reports a suspicious email to InfoSec@Example.com.\n\nObserve the following\n\n* Reported Email contained original email as MSG attachment\n* Reported Information (sender, email message) is presented as a handy reference\n* Suspicious email information (sender, receiver, subject, body, header, sender domain, etc) is presented for analyzing the case\n\n  ",
         "createdAlertsID": null,
-        "uuid": "ade532cb-9659-403c-ba4c-812cb460716c",
-        "createUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
-        "createDate": 1643727650,
+        "uuid": "74954b1b-d774-44db-b488-13dc813096da",
+        "createUser": "\/api\/3\/people\/3451141c-bac6-467c-8d72-85e0fab569ce",
+        "createDate": 1667584802.088815,
         "modifyUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
-        "modifyDate": 1655726868.047117,
-        "id": 1,
+        "modifyDate": 1667640475.911406,
+        "id": 6,
         "recordTags": [
             "Phishing"
         ]
