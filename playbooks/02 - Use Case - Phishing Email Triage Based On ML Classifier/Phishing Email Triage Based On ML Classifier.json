@@ -39,6 +39,7 @@
             "top": "435",
             "left": "300",
             "stepType": "\/api\/3\/workflow_step_types\/12254cf5-5db7-4b1a-8cb1-3af081924b28",
+            "group": null,
             "uuid": "35e6b9bf-7647-4aef-9cb9-259ee885ee85"
         },
         {
@@ -67,11 +68,11 @@
                             {
                                 "type": "object",
                                 "field": "type",
-                                "value": "\/api\/3\/picklists\/0b3ef6f9-eb29-4ab9-ac98-98364bd1a3aa",
+                                "value": "\/api\/3\/picklists\/c145394b-069a-449b-a05e-67980d0f4b82",
                                 "_value": {
-                                    "@id": "\/api\/3\/picklists\/0b3ef6f9-eb29-4ab9-ac98-98364bd1a3aa",
-                                    "display": "Phishing",
-                                    "itemValue": "Phishing"
+                                    "@id": "\/api\/3\/picklists\/c145394b-069a-449b-a05e-67980d0f4b82",
+                                    "display": "Suspicious Email",
+                                    "itemValue": "Suspicious Email"
                                 },
                                 "operator": "eq"
                             }
@@ -83,9 +84,10 @@
                 "singleRecordExecution": false
             },
             "status": null,
-            "top": "30",
+            "top": "20",
             "left": "300",
             "stepType": "\/api\/3\/workflow_step_types\/f414d039-bb0d-4e59-9c39-a8f1e880b18a",
+            "group": null,
             "uuid": "510576c1-c538-4c44-9fdd-0e153d5aa44f"
         },
         {
@@ -107,9 +109,10 @@
                 "step_variables": []
             },
             "status": null,
-            "top": "570",
-            "left": "475",
+            "top": "560",
+            "left": "480",
             "stepType": "\/api\/3\/workflow_step_types\/b593663d-7d13-40ce-a3a3-96dece928722",
+            "group": null,
             "uuid": "954f9bfc-09bc-48fc-b064-36382798c6d0"
         },
         {
@@ -123,6 +126,7 @@
             "top": "165",
             "left": "300",
             "stepType": "\/api\/3\/workflow_step_types\/04d0cf46-b6a8-42c4-8683-60a7eaa69e8f",
+            "group": null,
             "uuid": "aa34996d-7773-4d4f-8958-95062940dc5d"
         },
         {
@@ -141,6 +145,7 @@
             "top": "570",
             "left": "125",
             "stepType": "\/api\/3\/workflow_step_types\/0109f35d-090b-4a2b-bd8a-94cbc3508562",
+            "group": null,
             "uuid": "dab24bc6-f88f-4687-8606-3362087fae61"
         },
         {
@@ -166,6 +171,7 @@
             "top": "300",
             "left": "300",
             "stepType": "\/api\/3\/workflow_step_types\/0bfed618-0316-11e7-93ae-92361f002671",
+            "group": null,
             "uuid": "e51e5295-c8c4-4eef-9798-b811e85c3a8a"
         }
     ],
@@ -216,6 +222,7 @@
             "uuid": "e5b5a62c-d151-47d8-90db-0d5c536c99ae"
         }
     ],
+    "groups": [],
     "priority": "\/api\/3\/picklists\/2b563c61-ae2c-41c0-a85a-c9709585e3f2",
     "uuid": "90ac253c-405f-421a-aacc-01f861f85a00",
     "owners": [],
